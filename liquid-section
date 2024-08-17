@@ -2,7 +2,7 @@
 <div class="customCollage">
   {% for blocks in section.blocks %}
     <div class="customBlock" style="grid-area:
-      {% case forloop.index %}
+      {% case forloop.index %} 
       {% when 1 %} a
       {% when 2 %} b
       {% when 3 %} c
